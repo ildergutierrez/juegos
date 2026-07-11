@@ -1,111 +1,186 @@
-:root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
-
 body {
-  margin: 0;
+    background-color: #f0f0f0;
+    font-family: System-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+}
+.App {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+     /* min-height: 100vh; */
+
+}
+.App span.logo{
+   img{
+    width: 140px;
+    height: 150px;
+   }
+
+
+}
+.row {
+    margin: 10px;
+}
+/* Estilos para el principal componente Juego */
+.juego-card {
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 15px;
 }
 
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+.juego-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+.juego-img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    padding: 20px;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
-p {
-  margin: 0;
+.card-title {
+    font-weight: 600;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+.juego-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.85);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+    transform: translateY(100%);
+    transition: .3s;
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+.juego-card:hover .juego-overlay {
+    transform: translateY(0);
+}
+
+.juego-overlay h5 {
+    margin-bottom: 15px;
+}
+
+.juego-overlay p {
+    margin: 0;
+    font-size: .95rem;
+}
+/* final de los estilos para el componente Juego */
+
+/* Detalle del juego */
+.card{
+   width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.12);
+    border: none;
+    overflow: hidden;
+}
+.card-body{
+    padding:40px;
+}
+.card{
+    transition:.3s;
+}
+.regla-card,
+.beneficio-card{
+    border: none;
+    border-left: 5px solid #0d6efd;
+    border-radius: 12px;
+    background: #fff;
+    transition: .25s;
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+
+.regla-card:hover,
+.beneficio-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.regla-card .card-body,
+.beneficio-card .card-body{
+    padding:20px;
+    font-size:1rem;
+    line-height:1.6;
+}
+.card:hover{
+    transform:translateY(-3px);
+}
+.imagen-detalle{
+    height:350px;
+object-fit:cover;
+border-radius:15px;
+background:#f8f9fa;
+padding:15px;
+}
+.descripcion-detalle {
+   font-size:1.15rem;
+line-height:1.9;
+color:#555;
+    text-align: justify;
+}
+.titulo-detalle {
+    font-size: 2.4rem;
+font-weight: 700;
+margin-bottom: 30px;
+    text-align: center;
+}
+.beneficios-list {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 15px;
+   line-height:2;
+}
+.reglas-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 15px;
+    line-height:2;
+}
+h4{
+    margin-top:35px;
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+@media (max-width: 768px) {
+    .imagen-detalle {
+        max-height: 300px;
+    }
+}
+/* final de los estilos para el detalle del juego */
+/*boton subir*/
+.botonSubir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.icono-subir {
+    width: 10px;
+    height: 15px;
+}
+.botonvolver {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+.icono-volver {
+    width: 30px;
+    height: 20px;
 }
