@@ -13,7 +13,7 @@ export function Inicio() {
                     />
                 </span>
 
-                <p>Bienvenido a nuestra colección de juegos bíblicos. Explora y aprende mientras te diviertes.</p>
+                <p>Bienvenido a nuestra colección de juegos bíblicos. Explora y conoce más sobre ellos y diviértete. <br /><i>Solo da clic en uno para conocer sus detalles.</i></p>
 
             </section>
 
