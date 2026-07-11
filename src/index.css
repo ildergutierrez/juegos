@@ -161,6 +161,14 @@ h4{
     .imagen-detalle {
         max-height: 300px;
     }
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+    .card-body{
+        width: 100%;
+        padding: 5px;
+    }
 }
 /* final de los estilos para el detalle del juego */
 /*boton subir*/

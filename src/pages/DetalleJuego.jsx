@@ -57,7 +57,7 @@ export function TarjetasListas(
             <h4> {Titulo}</h4>
             {items.map((item, index) => (
                 <div key={index} className="col-12 col-md-6">
-                    <div className="card h-100">
+                    <div className="card ">
                         <div className="card-body">
                             <span className="me-2">{icono}</span>
                             {item}
