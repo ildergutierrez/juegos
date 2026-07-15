@@ -845,5 +845,237 @@ export const coleccion = [
       'Es ideal como actividad central de un campamento o evento al aire libre.'
     ],
     edad: 'A partir de 9 años'
+  },
+  {
+    id: 41,
+    titulo: 'Concurso de Predicación Relámpago',
+    descripcion: 'Cada participante recibe, en el momento, un tema o versículo bíblico sobre el cual debe improvisar un mensaje breve frente al grupo, como si estuviera predicando o enseñando. No se trata de leer algo preparado con anticipación: el reto es organizar rápidamente las ideas —una introducción corta, un desarrollo con al menos una aplicación práctica y una conclusión— y exponerlas de forma clara dentro de un tiempo muy limitado. Un jurado (puede ser el moderador u otros participantes) evalúa la claridad del mensaje, el uso correcto del texto bíblico y la capacidad de mantener la atención del público durante la exposición.',
+    reglas: [
+      'Se prepara una caja o bolsa con tarjetas que contienen distintos temas o versículos bíblicos cortos.',
+      'Cada participante pasa al frente, toma una tarjeta al azar y dispone de 1 minuto de preparación en silencio (puede tomar notas breves en una hoja).',
+      'Después del minuto de preparación, el participante tiene entre 90 segundos y 2 minutos para exponer su mensaje frente al grupo, sin leer un texto ya escrito completo, solo apoyándose en notas cortas.',
+      'El jurado califica de 1 a 5 puntos tres aspectos: claridad del mensaje, fidelidad al versículo o tema asignado, y capacidad de conectar con el público (tono de voz, seguridad, orden de ideas).',
+      'No se permite exceder el tiempo máximo; si el participante se pasa, el jurado puede restar 1 punto del total.',
+      'Se suman los puntos otorgados por cada juez para obtener el puntaje final de cada participante.',
+      'Gana quien obtenga la mayor puntuación total al finalizar todas las participaciones.',
+      'En caso de empate, los participantes empatados reciben un nuevo tema y repiten el proceso con un tiempo de preparación más corto (30 segundos); gana quien obtenga la calificación más alta en esta ronda extra.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2018/07/06/09/45/putin-3520074_1280.png',
+    beneficios: [
+      'Desarrolla habilidades de oratoria y expresión pública.',
+      'Fortalece la capacidad de organizar ideas bíblicas rápidamente.',
+      'Fomenta la confianza al hablar frente a un grupo.',
+      'Es una excelente preparación para futuros líderes o maestros de la iglesia.'
+    ],
+    edad: 'A partir de 14 años'
+  },
+  {
+    id: 42,
+    titulo: 'La Torre del Conocimiento',
+    descripcion: 'Cada equipo va construyendo, pieza por pieza, una torre de bloques o vasos apilables, pero solo puede colocar una pieza nueva después de responder correctamente una pregunta bíblica. El objetivo no es solo responder rápido, sino también construir con cuidado: si la torre se cae en cualquier momento, el equipo pierde todas las piezas colocadas hasta ese punto y debe comenzar de nuevo desde cero, aunque conserva los puntos de las preguntas ya respondidas correctamente. Así, el juego combina conocimiento bíblico, estrategia y pulso firme, ya que entre más alta esté la torre, más difícil es mantener el equilibrio al agregar nuevas piezas.',
+    reglas: [
+      'Cada equipo recibe un set idéntico de piezas apilables (mínimo 25-30 bloques o vasos) y se ubica en una mesa despejada.',
+      'El moderador hace preguntas bíblicas por turnos a cada equipo, siguiendo un orden rotativo.',
+      'Si el equipo responde correctamente, puede colocar una pieza más en su torre; si responde incorrectamente, no coloca pieza y pasa el turno al siguiente equipo.',
+      'Se establece un tiempo límite total para todo el juego (por ejemplo, 15 minutos).',
+      'Si la torre de un equipo se derrumba en cualquier momento, se retiran todas las piezas colocadas y el equipo debe comenzar a construir desde cero en su siguiente turno, pero conserva el número de preguntas correctas acumuladas hasta ese momento para el desempate.',
+      'Al finalizar el tiempo, se mide la altura de la torre de cada equipo (o se cuenta el número de piezas colocadas si las torres son de distinto tipo de pieza).',
+      'Gana el equipo cuya torre en pie tenga mayor altura o mayor número de piezas al terminar el tiempo.',
+      'En caso de empate en altura, gana el equipo que haya respondido correctamente más preguntas en total durante todo el juego; si persiste el empate, se hace una pregunta final de desempate y solo el equipo que acierte puede colocar una última pieza decisiva.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2017/01/31/00/09/books-2022464_1280.png',
+    beneficios: [
+      'Combina conocimiento bíblico con destreza manual y control de la ansiedad.',
+      'Enseña que el conocimiento se construye paso a paso, con cuidado y constancia.',
+      'Fomenta la estrategia y la paciencia dentro del equipo.',
+      'Genera momentos de tensión y diversión cuando las torres están a punto de caer.'
+    ],
+    edad: 'A partir de 9 años'
+  },
+  {
+    id: 43,
+    titulo: 'El Mercado de Versículos',
+    descripcion: 'Se simula un pequeño "mercado" donde cada equipo recibe una cantidad inicial de fichas o "monedas" que puede usar para comprar pistas, saltarse turnos difíciles o proteger sus respuestas ante retos de otros equipos. El moderador plantea preguntas bíblicas de distinto valor: preguntas fáciles cuestan pocas monedas para "comprar" el derecho a responder, mientras que las preguntas difíciles, si se responden bien, otorgan una recompensa mayor en monedas y puntos. La dinámica obliga a los equipos a administrar bien sus recursos, decidiendo cuándo arriesgar sus monedas en una pregunta difícil y cuándo jugar seguro con preguntas sencillas, de forma similar a una subasta o mercado de conocimientos.',
+    reglas: [
+      'Cada equipo inicia con la misma cantidad de fichas o monedas (por ejemplo, 20 fichas).',
+      'El moderador presenta un tablero o lista de preguntas organizadas por categorías y niveles de dificultad, cada una con un costo en fichas para "comprarla" (por ejemplo: fácil = 2 fichas, media = 4 fichas, difícil = 6 fichas).',
+      'Por turnos, cada equipo elige una pregunta disponible y paga el costo correspondiente con sus fichas antes de que el moderador la lea en voz alta.',
+      'Si el equipo responde correctamente, recibe puntos según la dificultad (fácil = 2 puntos, media = 4 puntos, difícil = 6 puntos) y además recupera sus fichas invertidas más una ficha extra como recompensa.',
+      'Si responde incorrectamente, pierde las fichas invertidas y no obtiene puntos; la pregunta puede pasar a otro equipo por la mitad del costo original.',
+      'Un equipo que se quede sin fichas puede seguir jugando únicamente las preguntas fáciles disponibles de forma gratuita, pero sin opción a las de mayor valor hasta que consiga más fichas respondiendo correctamente.',
+      'El juego termina cuando se agotan todas las preguntas del tablero o al cumplirse el tiempo establecido.',
+      'Gana el equipo con más puntos acumulados al finalizar (las fichas restantes no bonifican, solo sirven para jugar).',
+      'En caso de empate en puntos, gana el equipo que haya terminado con más fichas en su poder; si también hay empate en fichas, se juega una pregunta difícil final sin costo, y el primero en responder correctamente gana.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2016/03/31/23/55/business-1297925_1280.png',
+    beneficios: [
+      'Enseña administración de recursos y toma de decisiones estratégicas.',
+      'Motiva a arriesgarse con preguntas más desafiantes para obtener mejores recompensas.',
+      'Refuerza el conocimiento bíblico en distintos niveles de dificultad.',
+      'Es dinámico y mantiene el interés de principio a fin por la variable económica del juego.'
+    ],
+    edad: 'A partir de 12 años'
+  },
+  {
+    id: 44,
+    titulo: 'Caza del Tesoro Bíblico',
+    descripcion: 'Se esconde un "tesoro" (puede ser un objeto simbólico, un premio o un sobre con un versículo especial) en algún lugar del espacio donde se realiza la actividad. Para encontrarlo, los equipos deben seguir una serie de pistas encadenadas: cada pista, generalmente basada en un pasaje o dato bíblico, indica dónde está escondida la siguiente pista, y solo resolviendo correctamente todas las pistas en orden se llega finalmente al lugar donde está el tesoro. El reto combina conocimiento bíblico con capacidad de observación y trabajo en equipo, ya que una pista mal interpretada puede llevar al equipo por un camino equivocado.',
+    reglas: [
+      'El moderador prepara con anticipación una cadena de 6 a 10 pistas, cada una escondida en un lugar distinto del espacio de juego, y esconde el tesoro final en el último punto de la cadena.',
+      'Cada pista incluye un dato o acertijo bíblico cuya respuesta correcta indica, de forma directa o simbólica, dónde se encuentra la siguiente pista (por ejemplo: "Busca donde se guarda lo que da luz a la Palabra", refiriéndose a una lámpara).',
+      'Se pueden formar varios equipos que compiten con cadenas de pistas distintas pero de la misma dificultad, o un solo grupo si el evento es pequeño.',
+      'Cada equipo debe resolver una pista antes de poder buscar la siguiente; no se permite avanzar sin haber comprendido correctamente la pista actual.',
+      'Si un equipo se atasca más de 5 minutos en una pista, puede pedir una "ayuda" al moderador, pero esto le resta puntos o tiempo bonus al final.',
+      'Gana el equipo que llegue primero al tesoro habiendo seguido correctamente toda la cadena de pistas (no se permite saltarse pasos ni buscar el tesoro directamente sin completar el recorrido).',
+      'En caso de empate (dos equipos llegan al tesoro casi al mismo tiempo), gana el equipo que haya usado menos ayudas del moderador durante el recorrido; si también empatan en ese aspecto, se hace una pregunta bíblica final y gana quien la responda primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2012/04/12/12/52/map-29903_1280.png',
+    beneficios: [
+      'Fomenta la observación, la lógica y el trabajo colaborativo.',
+      'Genera emoción y expectativa constante durante toda la actividad.',
+      'Refuerza el aprendizaje bíblico de manera indirecta y práctica.',
+      'Es ideal como actividad principal de un evento especial o cierre de un campamento.'
+    ],
+    edad: 'A partir de 10 años'
+  },
+  {
+    id: 45,
+    titulo: 'El Semáforo Bíblico',
+    descripcion: 'Cada participante recibe tres tarjetas de colores: roja, amarilla y verde. El moderador lee afirmaciones relacionadas con la Biblia, algunas verdaderas, otras falsas y otras que requieren más contexto para saber si son ciertas o no ("depende del contexto"). Ante cada afirmación, los participantes deben levantar de inmediato la tarjeta verde si creen que es verdadera, la roja si creen que es falsa, o la amarilla si consideran que la afirmación es ambigua o incompleta y necesita aclaración. Después de que todos muestran su tarjeta, el moderador explica la respuesta correcta con su fundamento bíblico, convirtiendo el juego en un momento de aprendizaje además de competencia.',
+    reglas: [
+      'Cada participante recibe un set de tres tarjetas de colores (rojo, amarillo, verde), hechas de cartulina u otro material resistente.',
+      'El moderador lee una afirmación bíblica y da una cuenta regresiva de 5 segundos para que todos levanten su tarjeta al mismo tiempo (no se permite cambiar de tarjeta después de levantarla).',
+      'El moderador revela la respuesta correcta y explica brevemente el porqué, citando el pasaje bíblico correspondiente.',
+      'Cada participante que haya levantado la tarjeta correcta suma 1 punto; los demás no suman ni restan puntos.',
+      'Se recomienda incluir al menos un 20% de afirmaciones "amarillas" (ambiguas o que requieren contexto) para hacer el juego más desafiante y evitar respuestas automáticas.',
+      'Se juegan entre 12 y 15 afirmaciones para tener una competencia equilibrada.',
+      'Gana el participante (o equipo, si se juega en grupos con una sola tarjeta por equipo) que acumule más puntos al finalizar todas las afirmaciones.',
+      'En caso de empate, se leen afirmaciones adicionales de desempate una por una hasta que uno de los empatados falle y el otro acierte, momento en el cual se declara ganador a este último.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2014/04/03/10/05/traffic-lights-309773_1280.png',
+    beneficios: [
+      'Estimula la reflexión y evita respuestas automáticas o memorizadas sin comprensión.',
+      'Corrige ideas erróneas comunes sobre pasajes bíblicos.',
+      'Fomenta la participación simultánea de todo el grupo, sin dejar a nadie fuera.',
+      'Es una herramienta útil para enseñar discernimiento bíblico, no solo memoria.'
+    ],
+    edad: 'A partir de 10 años'
+  },
+  {
+    id: 46,
+    titulo: 'Batalla Naval Bíblica',
+    descripcion: 'Es una adaptación bíblica del clásico juego de "batalla naval". En lugar de barcos, cada jugador o equipo esconde en su tablero personajes o referencias bíblicas ubicadas en distintas coordenadas (letras y números). Por turnos, los jugadores "disparan" mencionando una coordenada; si en esa coordenada el rival tiene un personaje oculto, debe revelarlo y además responder correctamente una pregunta relacionada con ese personaje para que el disparo cuente como "hundido". El juego combina estrategia de ubicación con conocimiento bíblico real, ya que no basta con adivinar la coordenada correcta: también hay que demostrar conocimiento sobre el personaje descubierto.',
+    reglas: [
+      'Cada jugador o pareja de jugadores recibe un tablero cuadriculado con coordenadas (letras en un eje, números en el otro) y una lista de personajes bíblicos para ubicar en secreto en distintas casillas, sin que el rival los vea.',
+      'Se juega por parejas o equipos enfrentados; cada uno tiene su propio tablero oculto tras una separación (un libro, una carpeta) para que el otro no vea dónde ubicó a sus personajes.',
+      'Por turnos, cada jugador menciona una coordenada (por ejemplo, "C4") intentando "disparar" a un personaje escondido del rival.',
+      'Si en esa coordenada hay un personaje, el rival debe decir "¡impacto!" y revelar de qué personaje se trata; el jugador que disparó debe entonces responder una pregunta relacionada con ese personaje para confirmar el hundimiento.',
+      'Si responde correctamente la pregunta, el personaje queda "hundido" y se marca en el tablero; si responde mal, el personaje permanece en el tablero pero se marca como "dañado" (herido), y bastará con otro impacto sin necesidad de responder de nuevo para hundirlo definitivamente.',
+      'Si la coordenada mencionada no tiene ningún personaje, el rival dice "agua" y el turno pasa al otro jugador.',
+      'Gana el primer jugador o equipo que logre hundir todos los personajes del tablero rival.',
+      'En caso de empate en número de personajes hundidos si se juega con tiempo límite, gana quien haya usado menos disparos en total para lograrlo; si persiste el empate, se juega una ronda extra con un solo personaje oculto por cada tablero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2017/02/01/10/50/america-2029599_1280.png',
+    beneficios: [
+      'Combina pensamiento estratégico con conocimiento de personajes bíblicos.',
+      'Desarrolla la memoria y la capacidad de deducción por eliminación.',
+      'Fomenta la concentración y la planificación anticipada.',
+      'Es un formato familiar (por el juego clásico) que resulta fácil de aprender rápidamente.'
+    ],
+    edad: 'A partir de 10 años'
+  },
+  {
+    id: 47,
+    titulo: 'El Reloj Contra el Tiempo',
+    descripcion: 'Se organiza un tablero de categorías bíblicas (por ejemplo: Personajes, Milagros, Números Bíblicos, Lugares, Profecías), cada una con preguntas de distinto valor en puntos según su dificultad, similar a un concurso de televisión por categorías. Los equipos eligen por turnos una categoría y un valor de puntos; el moderador lee la pregunta correspondiente y el equipo tiene un tiempo limitado, marcado con un cronómetro visible, para responder antes de que se agote. La presión del reloj obliga a los equipos a pensar con rapidez y a decidir con cuidado qué categorías y niveles de dificultad elegir a lo largo del juego.',
+    reglas: [
+      'Se prepara un tablero (físico o proyectado) con 4 o 5 categorías bíblicas, cada una con preguntas de 3 niveles de valor (por ejemplo, 100, 200 y 300 puntos), ocultas hasta que se elijan.',
+      'Los equipos se turnan para elegir una categoría y un valor de puntos disponible en el tablero.',
+      'El moderador lee la pregunta elegida y activa un cronómetro visible con un tiempo según el valor de la pregunta (por ejemplo, 15 segundos para 100 puntos, 20 para 200, y 25 para 300).',
+      'El equipo debe dar su respuesta antes de que el cronómetro llegue a cero; si el tiempo se agota sin respuesta, la pregunta se pierde sin penalización, pero tampoco se otorgan puntos.',
+      'Si el equipo responde correctamente dentro del tiempo, gana los puntos correspondientes al valor de la pregunta elegida; si responde incorrectamente, no gana puntos y la pregunta puede ofrecerse al siguiente equipo con la mitad del tiempo restante.',
+      'Cada pregunta usada se retira del tablero y no puede volver a elegirse.',
+      'El juego continúa hasta que se agoten todas las preguntas del tablero o se cumpla el tiempo total asignado a la actividad.',
+      'Gana el equipo con más puntos acumulados al finalizar el tablero completo.',
+      'En caso de empate, se presenta una pregunta final de valor doble ("pregunta relámpago") a la que ambos equipos empatados responden por escrito al mismo tiempo; gana quien responda correctamente, o si ambos aciertan, quien la entregue primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2020/05/31/18/11/hourglass-5243621_1280.png',
+    beneficios: [
+      'Genera un ambiente de concurso emocionante similar a un programa de televisión.',
+      'Permite cubrir de forma organizada distintas áreas del conocimiento bíblico.',
+      'Enseña a tomar decisiones estratégicas bajo presión de tiempo.',
+      'Es muy visual y llamativo si se proyecta el tablero en una pantalla.'
+    ],
+    edad: 'A partir de 12 años'
+  },
+  {
+    id: 48,
+    titulo: 'Carrera de Postas: El Buen Samaritano',
+    descripcion: 'Es una carrera de relevos en la que cada equipo debe "auxiliar" a un compañero que actúa como el hombre herido de la parábola del buen samaritano. Un integrante permanece sentado o recostado en un punto del recorrido representando al herido, y cada corredor del equipo debe llegar hasta él, realizar una pequeña acción de ayuda simbólica (por ejemplo, colocarle una venda de tela en el brazo, darle de beber agua de un vaso, o cargarlo unos pasos apoyado en su hombro) y regresar a dar el relevo al siguiente compañero, quien repite el proceso de auxilio antes de que el equipo pueda considerar completada la posta.',
+    reglas: [
+      'Materiales: un recorrido marcado con la línea de salida y, a cierta distancia, el punto donde se ubica el compañero que hace de "herido"; además, elementos simbólicos de auxilio (tiras de tela como vendas, un vaso con agua, o un objeto para simular carga).',
+      'Cada equipo designa a un integrante para hacer de "herido", quien se coloca sentado en el punto señalado del recorrido durante toda la ronda de su equipo.',
+      'A la señal de salida, el primer corredor del equipo corre hasta el "herido", realiza la acción de auxilio asignada para esa ronda (por ejemplo, colocarle la venda), y regresa corriendo a tocar la mano del siguiente compañero.',
+      'El siguiente corredor repite el recorrido, pero debe realizar una acción de auxilio distinta a la anterior (por ejemplo, ahora dar de beber agua), y así sucesivamente hasta que todos los integrantes hayan realizado una acción de auxilio diferente.',
+      'No se puede repetir la misma acción de auxilio dos veces dentro del mismo equipo; si un corredor no recuerda qué acciones faltan, puede preguntar al "herido", pero esto añade 3 segundos de penalización al tiempo del equipo.',
+      'El equipo termina la posta cuando el último integrante regresa a la línea de salida después de haber completado su acción de auxilio con el herido.',
+      'Gana el equipo que complete todas las acciones de auxilio distintas, sin repetir ninguna, en el menor tiempo total.',
+      'En caso de empate en el tiempo, se agrega una acción de auxilio adicional y se repite la posta solo entre los equipos empatados, con un único corredor por equipo; gana quien la complete primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2017/12/09/21/34/bible-3008790_1280.png',
+    beneficios: [
+      'Enseña de forma vivencial el valor de la compasión y el servicio al prójimo.',
+      'Combina actividad física con la enseñanza de una parábola central de Jesús.',
+      'Fomenta la memoria de secuencia (recordar qué acciones ya se realizaron).',
+      'Genera un momento reflexivo además de recreativo, ideal para cerrar con una enseñanza.'
+    ],
+    edad: 'A partir de 9 años'
+  },
+  {
+    id: 49,
+    titulo: 'Acertijo Numérico Bíblico',
+    descripcion: 'El moderador presenta acertijos basados en números importantes dentro de la Biblia (por ejemplo, los años que Israel estuvo en el desierto, la cantidad de discípulos de Jesús, el número de plagas de Egipto, o los días que Jonás estuvo en el pez), planteados como una pequeña operación o pista matemática sencilla que lleva a la respuesta correcta (por ejemplo: "Sumen los días de la creación con los años que Israel peregrinó en el desierto dividido entre diez, ¿qué número bíblico obtienen y qué representa?"). El reto exige tanto conocimiento bíblico de las cifras relevantes como habilidad para resolver una operación matemática simple antes de identificar su significado dentro de la Biblia.',
+    reglas: [
+      'El moderador prepara una lista de acertijos numéricos, cada uno combinando una operación matemática sencilla (suma, resta, multiplicación o división) con datos numéricos bíblicos conocidos.',
+      'Se juega por equipos, cada uno con papel y lápiz para hacer sus cálculos.',
+      'El moderador lee el acertijo completo en voz alta (y puede repetirlo una vez si se solicita) y otorga un tiempo límite de 30 a 45 segundos para resolverlo.',
+      'Cada equipo debe entregar por escrito, dentro del tiempo, tanto el resultado numérico correcto como el significado bíblico de ese número (por ejemplo, "40" y "los años que Israel peregrinó en el desierto").',
+      'Se otorgan 2 puntos si el equipo acierta el número y su significado, 1 punto si solo acierta el número correcto sin identificar bien su significado bíblico, y 0 puntos si ambos son incorrectos.',
+      'Se recomienda jugar entre 8 y 10 acertijos numéricos para cubrir distintos datos bíblicos relevantes.',
+      'Gana el equipo con más puntos acumulados al finalizar todos los acertijos.',
+      'En caso de empate, se presenta un acertijo numérico adicional de mayor dificultad; el primer equipo en entregar por escrito la respuesta completa y correcta (número y significado) gana el desempate.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2021/04/16/09/24/security-6183065_1280.png',
+    beneficios: [
+      'Combina el razonamiento matemático con el conocimiento bíblico de cifras importantes.',
+      'Refuerza la memorización de datos numéricos relevantes de las Escrituras.',
+      'Desarrolla la capacidad de cálculo rápido bajo presión de tiempo.',
+      'Ofrece una perspectiva distinta y poco común de estudiar la Biblia a través de sus números.'
+    ],
+    edad: 'A partir de 12 años'
+  },
+  {
+    id: 50,
+    titulo: 'El Desfile de Personajes Bíblicos',
+    descripcion: 'Cada participante o equipo prepara con anticipación una breve presentación caracterizando a un personaje bíblico asignado, usando vestuario sencillo o accesorios improvisados. Durante la actividad, cada uno "desfila" frente al grupo presentándose en primera persona, como si realmente fuera ese personaje (por ejemplo: "Yo fui pastor de ovejas y enfrenté a un gigante con solo una honda y cinco piedras"), sin decir directamente el nombre del personaje. Después de la presentación, el resto del grupo tiene la oportunidad de hacer un número limitado de preguntas de sí o no al personaje antes de intentar adivinar quién es.',
+    reglas: [
+      'Con anticipación (mínimo una semana), el moderador asigna a cada participante o equipo un personaje bíblico distinto para preparar su presentación en primera persona con vestuario o accesorios sencillos.',
+      'El día del juego, cada participante pasa al frente y se presenta hablando en primera persona sobre su vida, sus acciones y su papel en la historia bíblica, sin mencionar su nombre ni el de otros personajes que lo delaten directamente.',
+      'La presentación debe durar entre 1 y 2 minutos como máximo.',
+      'Al finalizar, el resto del grupo puede hacer hasta 3 preguntas de sí o no dirigidas al personaje para obtener más pistas antes de intentar adivinar.',
+      'Después de las preguntas, los espectadores escriben en un papel el nombre del personaje que creen que fue representado, o lo dicen en voz alta si se juega de forma más informal.',
+      'Cada espectador que acierte el nombre correcto suma 1 punto personal; el participante que hizo la presentación recibe puntos si logra que la mayoría del grupo no adivine con las primeras 3 preguntas (mientras más difícil resulte adivinar, mejor calificación recibe su actuación, según lo evalúe el moderador de 1 a 5).',
+      'Se repite el proceso hasta que todos los participantes o equipos hayan presentado su personaje.',
+      'Gana, en la categoría de "mejor actuación", quien reciba la calificación más alta del moderador; y en la categoría de "mejor detective", quien haya acertado más personajes durante todo el juego.',
+      'En caso de empate en cualquiera de las dos categorías, se realiza una ronda extra con un personaje bíblico nuevo y más difícil, evaluado únicamente entre los empatados.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2022/08/18/03/28/marching-band-7393899_1280.png',
+    beneficios: [
+      'Fomenta la creatividad, la expresión escénica y la investigación previa sobre el personaje asignado.',
+      'Profundiza el conocimiento de la vida y el contexto de personajes bíblicos completos, no solo datos sueltos.',
+      'Desarrolla la escucha activa y la formulación de preguntas estratégicas en los espectadores.',
+      'Es una actividad muy vistosa, ideal para eventos especiales o presentaciones ante toda la congregación.'
+    ],
+    edad: 'A partir de 12 años'
   }
 ]
