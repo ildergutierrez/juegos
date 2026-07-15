@@ -615,6 +615,235 @@ export const coleccion = [
       'Fomenta un ambiente de sana competencia bíblica.'
     ],
     edad: 'A partir de 13 años'
-  }
+  },
 
+  {
+    id: 31,
+    titulo: 'Carrera de Relevos: Cruza el Mar Rojo',
+    descripcion: 'Es una carrera de relevos por equipos inspirada en el cruce del Mar Rojo. Se traza un carril delimitado por dos filas de conos o cuerdas que simulan las "aguas divididas". Cada integrante del equipo debe recorrer ese carril cargando un objeto (una vasija, una pelota o una tarjeta) sin tocar los conos, entregarlo al siguiente compañero y así sucesivamente hasta que todo el equipo haya cruzado.',
+    reglas: [
+      'Materiales: conos o cuerdas para marcar dos carriles paralelos de unos 8 a 10 metros de largo (el "mar dividido"), y un objeto pequeño para relevar (vasija, pelota o tarjeta) por equipo.',
+      'Se forman equipos con el mismo número de integrantes, alineados en fila detrás de la línea de salida de su carril.',
+      'A la señal del moderador, el primer integrante corre por el carril cargando el objeto, sin tocar ni tirar los conos, hasta la línea final, y regresa corriendo por fuera del carril para entregar el objeto al siguiente compañero.',
+      'Si un participante toca o derriba un cono, debe detenerse, acomodarlo y continuar desde ese punto (no se reinicia el recorrido).',
+      'El relevo continúa hasta que todos los integrantes del equipo hayan completado el cruce.',
+      'Gana el equipo que termine primero todos los cruces sin acumular más de dos toques de conos; si supera ese límite, se suman 3 segundos de penalización por cada toque adicional al tiempo final.',
+      'En caso de empate en el tiempo final, se repite la carrera solo con un integrante por equipo (el más rápido de cada uno) y gana quien cruce primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2013/07/12/12/20/bridge-145607_1280.png',
+    beneficios: [
+      'Combina actividad física con la enseñanza de un relato bíblico central.',
+      'Fomenta el trabajo en equipo y la coordinación.',
+      'Desarrolla la agilidad y el control corporal.',
+      'Es ideal para actividades al aire libre o campamentos.'
+    ],
+    edad: 'A partir de 8 años'
+  },
+  {
+    id: 32,
+    titulo: 'Acertijos Bíblicos',
+    descripcion: 'El moderador lee en voz alta un acertijo compuesto por varias pistas en forma de rima o descripción indirecta (por ejemplo: "Fui tragado por un gran pez, tres días estuve sin ver la luz, y luego prediqué en Nínive por orden de Dios, ¿quién soy?"). Los participantes deben descubrir a qué personaje, objeto o lugar bíblico se refiere antes que los demás.',
+    reglas: [
+      'El moderador prepara con anticipación una lista de acertijos, cada uno con 2 a 4 pistas que se leen de manera progresiva (de la más difícil o general a la más obvia).',
+      'Se puede jugar de forma individual, levantando la mano, o por equipos, con un integrante designado para responder en cada turno.',
+      'El moderador lee la primera pista; si nadie responde correctamente en 10 segundos, lee la siguiente pista, y así sucesivamente.',
+      'El primer participante o equipo que levante la mano y acierte gana el punto correspondiente a esa ronda.',
+      'El puntaje depende del número de pistas usadas: acertar con la primera pista otorga 3 puntos, con la segunda 2 puntos, y con la tercera o cuarta 1 punto.',
+      'Si un participante responde antes de que se le ceda la palabra o da una respuesta incorrecta, pierde el derecho a responder ese acertijo en la siguiente pista.',
+      'Gana quien (o el equipo que) acumule más puntos al finalizar todos los acertijos preparados.',
+      'En caso de empate, se lee un acertijo adicional de desempate solo con la pista más difícil; gana quien la responda correctamente primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2026/05/28/09/01/creativecanvasshop-cute-frog-10302436_1280.png',
+    beneficios: [
+      'Desarrolla el pensamiento deductivo y el razonamiento lógico.',
+      'Refuerza el conocimiento de detalles bíblicos poco comunes.',
+      'Estimula la escucha atenta y la reflexión antes de responder.',
+      'Hace el estudio bíblico más ameno y desafiante.'
+    ],
+    edad: 'A partir de 10 años'
+  },
+  {
+    id: 33,
+    titulo: 'Carrera Contra el Reloj: Encuentra el Versículo',
+    descripcion: 'Cada participante o equipo recibe una Biblia física y debe localizar, lo más rápido posible, un versículo específico que el moderador menciona en voz alta (por ejemplo: "Juan 3:16"). Gana quien encuentre y lea correctamente el versículo en el menor tiempo.',
+    reglas: [
+      'Cada participante o equipo debe tener una Biblia física cerrada (misma versión para todos, si es posible) antes de iniciar cada ronda.',
+      'El moderador anuncia una referencia bíblica completa (libro, capítulo y versículo).',
+      'A la señal de "¡Ya!", los participantes abren su Biblia y buscan el versículo lo más rápido posible.',
+      'El primero en encontrarlo debe ponerse de pie o levantar la mano y leer el versículo completo en voz alta para confirmar que es correcto.',
+      'Si la lectura es correcta, gana 3 puntos; el segundo en encontrarlo y leerlo correctamente gana 2 puntos, y el tercero 1 punto.',
+      'Si alguien se equivoca al leer el versículo, pierde su turno en esa ronda y no recibe puntos, aunque haya sido el primero en levantarse.',
+      'Se juegan entre 8 y 10 rondas con referencias distintas, variando la dificultad (Antiguo y Nuevo Testamento, libros menos conocidos, etc.).',
+      'Gana quien acumule más puntos al finalizar todas las rondas.',
+      'En caso de empate, se juega una ronda final con una referencia de un libro poco conocido; gana quien la encuentre y lea correctamente primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2017/02/01/10/53/clock-2029613_1280.png',
+    beneficios: [
+      'Mejora la habilidad de manejo y búsqueda en la Biblia.',
+      'Aumenta la familiaridad con la estructura y el orden de los libros bíblicos.',
+      'Desarrolla la rapidez mental bajo presión de tiempo.',
+      'Fomenta el hábito de acudir directamente a las Escrituras.'
+    ],
+    edad: 'A partir de 9 años'
+  },
+  {
+    id: 34,
+    titulo: 'El Rally Bíblico',
+    descripcion: 'Es una gran carrera por estaciones (rally) en la que los equipos recorren distintos puntos de un espacio amplio (salón, patio o campamento). En cada estación deben resolver un acertijo, responder una pregunta o superar un reto físico corto relacionado con la Biblia para obtener una pista o palabra clave que los lleve a la siguiente estación.',
+    reglas: [
+      'Se organizan de 5 a 8 estaciones distribuidas en el espacio disponible, cada una con un reto distinto (un acertijo, una pregunta de trivia, un versículo por completar o un reto físico breve).',
+      'Se forman equipos con un mapa o lista de estaciones y un cuadernillo de respuestas.',
+      'En cada estación, el equipo debe resolver correctamente el reto para recibir de un encargado de estación una letra, palabra o pista que anota en su cuadernillo.',
+      'Los equipos pueden avanzar por las estaciones en distinto orden si hay más de un encargado, o en orden fijo si el rally es lineal, según lo defina el moderador antes de iniciar.',
+      'Si un equipo falla un reto, puede intentarlo una segunda vez con una pequeña penalización de tiempo (por ejemplo, esperar 1 minuto) antes de continuar.',
+      'Al completar todas las estaciones, el equipo debe unir las letras o pistas obtenidas para descubrir una palabra o versículo final y presentarlo al moderador.',
+      'Gana el equipo que descubra correctamente la palabra o versículo final en el menor tiempo total.',
+      'En caso de empate en el tiempo, se realiza una estación extra de desempate con un reto único; gana el equipo que lo resuelva primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2016/09/06/04/48/checker-1648337_1280.png',
+    beneficios: [
+      'Integra múltiples habilidades: física, cognitiva y de trabajo en equipo.',
+      'Cubre distintos temas bíblicos en una sola actividad extensa.',
+      'Fomenta la organización, la estrategia y la comunicación grupal.',
+      'Es ideal como actividad principal de un evento o campamento.'
+    ],
+    edad: 'A partir de 11 años'
+  },
+  {
+    id: 35,
+    titulo: 'Rompecabezas de la Palabra',
+    descripcion: 'Cada equipo recibe las piezas de un rompecabezas que, al armarse, forma una imagen bíblica o un versículo escrito en partes. Los equipos deben armar su rompecabezas lo más rápido posible; el primero en completarlo correctamente gana la ronda.',
+    reglas: [
+      'Se prepara con anticipación un rompecabezas por equipo (puede ser una imagen bíblica impresa y cortada en piezas, o un versículo escrito y recortado en fragmentos de palabras o frases).',
+      'Todos los equipos reciben un rompecabezas de la misma dificultad (mismo número de piezas) para que la competencia sea justa.',
+      'A la señal del moderador, cada equipo comienza a armar su rompecabezas sobre una mesa o el piso.',
+      'Ningún integrante puede llevarse piezas fuera del área de trabajo asignada ni tomar piezas de otro equipo.',
+      'El primer equipo en armar correctamente el rompecabezas completo debe levantar la mano y decir en voz alta la imagen o el versículo formado.',
+      'El moderador verifica que esté correctamente armado y sin piezas fuera de lugar antes de declarar ganador.',
+      'Si el rompecabezas tiene errores, el equipo debe corregirlo mientras los demás equipos continúan compitiendo.',
+      'En caso de empate (dos equipos terminan y levantan la mano casi al mismo tiempo), el moderador hace una pregunta rápida sobre el versículo o la imagen formada; gana quien responda correctamente primero.'
+    ],
+    img: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Jigsaw.png',
+    beneficios: [
+      'Desarrolla la paciencia, la observación y la motricidad fina.',
+      'Refuerza visualmente escenas o versículos bíblicos.',
+      'Fomenta la cooperación y la división de tareas dentro del equipo.',
+      'Es adecuado tanto para niños como para jóvenes y adultos.'
+    ],
+    edad: 'A partir de 7 años'
+  },
+  {
+    id: 36,
+    titulo: 'Carrera de Sacos con Preguntas Bíblicas',
+    descripcion: 'Es una carrera de sacos tradicional combinada con preguntas bíblicas: los participantes deben saltar dentro de un costal o saco hasta un punto de control donde deben responder correctamente una pregunta antes de continuar hasta la meta.',
+    reglas: [
+      'Materiales: un costal o saco por participante (o por equipo, si se corre por relevos), y un recorrido marcado con un punto de control a mitad de camino.',
+      'Cada participante se introduce dentro del saco sosteniéndolo con ambas manos a la altura de la cintura.',
+      'A la señal de salida, debe avanzar saltando dentro del saco hasta llegar al punto de control (a mitad del recorrido).',
+      'En el punto de control, un encargado le hace una pregunta bíblica corta; si la responde correctamente, puede continuar saltando hasta la meta.',
+      'Si responde incorrectamente, debe intentar una segunda pregunta antes de poder continuar (sin penalización de tiempo adicional, pero perdiendo tiempo en el intento).',
+      'Si se cae o sale del saco antes de la meta, debe volver a entrar en el mismo lugar donde ocurrió la caída y continuar desde allí.',
+      'Gana el primer participante (o equipo, si es por relevos) en cruzar la meta habiendo respondido correctamente en el punto de control.',
+      'En caso de empate, se repite la carrera solo entre los empatados con una nueva pregunta en el punto de control.'
+    ],
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV9yd92kdexFCv9twl8JcsRMCRliH5xtdzNzp4ZS_k5Xm8k9I9bUThkTE&s=10',
+    beneficios: [
+      'Combina ejercicio físico, equilibrio y conocimiento bíblico.',
+      'Genera un ambiente alegre y de sana competencia.',
+      'Estimula la coordinación motora y el pensamiento bajo presión.',
+      'Es muy popular en actividades recreativas y campamentos juveniles.'
+    ],
+    edad: 'A partir de 8 años'
+  },
+  {
+    id: 37,
+    titulo: 'El Código Secreto Bíblico',
+    descripcion: 'Los participantes reciben un mensaje bíblico escrito en un código sencillo (por ejemplo, números que representan letras, o símbolos que sustituyen letras) y deben descifrarlo usando una clave o tabla de equivalencias para descubrir el versículo o mensaje oculto.',
+    reglas: [
+      'El moderador prepara un mensaje o versículo bíblico codificado (por ejemplo, cada letra sustituida por un número según el alfabeto: A=1, B=2, C=3, etc.) y una tabla de equivalencias como clave.',
+      'Se entrega a cada participante o equipo una copia del mensaje codificado y, opcionalmente, la tabla de claves (si el nivel es principiante) o sin ella (si el nivel es avanzado y deben deducir el patrón).',
+      'Se establece un tiempo límite para descifrar el mensaje completo (por ejemplo, 5 a 8 minutos, según la longitud y dificultad del código).',
+      'El primer participante o equipo en descifrar correctamente el mensaje completo debe levantar la mano y leerlo en voz alta.',
+      'El moderador verifica que la traducción sea exacta antes de declarar ganador.',
+      'Si el mensaje tiene errores, el equipo debe corregirlos y puede volver a intentarlo mientras el tiempo lo permita, sin perder su turno frente a los demás.',
+      'Se pueden otorgar puntos parciales por palabras correctamente descifradas si nadie logra completar el mensaje entero dentro del tiempo asignado.',
+      'En caso de empate, se entrega un mensaje corto adicional de desempate; gana quien lo descifre correctamente primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2014/04/02/10/22/padlock-303617_1280.png',
+    beneficios: [
+      'Desarrolla el pensamiento lógico y la capacidad de análisis de patrones.',
+      'Genera expectativa e interés por descubrir el mensaje bíblico oculto.',
+      'Refuerza la lectura cuidadosa y la concentración.',
+      'Es un reto atractivo especialmente para adolescentes y jóvenes.'
+    ],
+    edad: 'A partir de 12 años'
+  },
+  {
+    id: 38,
+    titulo: 'Carrera de Relevos: La Torre de Babel',
+    descripcion: 'Cada equipo debe construir una torre con vasos o bloques apilables en el menor tiempo posible, pero con una dificultad especial: solo un integrante del equipo conoce las instrucciones completas y debe comunicarlas a los demás usando únicamente gestos o palabras inventadas, simulando la confusión de lenguas de la Torre de Babel.',
+    reglas: [
+      'Materiales: un set de vasos de plástico o bloques apilables por equipo (mínimo 15-20 piezas) y una tarjeta con instrucciones de construcción (por ejemplo, la forma o el orden específico de la torre).',
+      'En cada equipo se elige a un integrante como "guía", quien es el único que puede ver la tarjeta con las instrucciones completas.',
+      'El guía no puede hablar en el idioma normal ni tocar las piezas; solo puede comunicarse con gestos, sonidos o una "lengua inventada" para dirigir a sus compañeros.',
+      'Los demás integrantes del equipo deben construir la torre siguiendo únicamente las indicaciones del guía, sin ver la tarjeta de instrucciones.',
+      'Se establece un tiempo límite (por ejemplo, 5 minutos) para terminar la construcción.',
+      'Al finalizar el tiempo, el moderador compara cada torre construida con la instrucción original de la tarjeta.',
+      'Gana el equipo cuya torre sea más parecida (en forma, color u orden) a la instrucción original, o el primero en construirla correctamente si se termina antes del tiempo límite.',
+      'En caso de empate en similitud, se realiza una ronda de desempate con una instrucción más sencilla y un tiempo más corto (2 minutos); gana quien logre el resultado más cercano.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2016/04/01/08/30/castillo-1298752_1280.png',
+    beneficios: [
+      'Ilustra de forma práctica la confusión de lenguas del relato de la Torre de Babel.',
+      'Fortalece la comunicación no verbal y la creatividad.',
+      'Fomenta la paciencia y el trabajo en equipo bajo presión.',
+      'Genera momentos muy divertidos por los malentendidos naturales del juego.'
+    ],
+    edad: 'A partir de 10 años'
+  },
+  {
+    id: 39,
+    titulo: 'Acertijo del Objeto Bíblico',
+    descripcion: 'El moderador describe, sin nombrarlo directamente, un objeto importante de la Biblia (por ejemplo, el arca del pacto, la vara de Moisés, la honda de David) mediante una serie de pistas sobre su forma, uso, dueño o historia. Los participantes deben adivinar de qué objeto se trata antes de que se agoten las pistas disponibles.',
+    reglas: [
+      'El moderador prepara una lista de objetos bíblicos, cada uno con 3 a 5 pistas ordenadas de la más general a la más específica.',
+      'Se puede jugar de forma individual (levantando la mano) o por equipos con un representante que responde en cada turno.',
+      'El moderador da la primera pista; si nadie acierta, da la segunda, y así sucesivamente hasta agotar las pistas o hasta que alguien adivine.',
+      'El puntaje depende de en qué pista se acierta: 4 puntos si se adivina con la primera pista, 3 con la segunda, 2 con la tercera y 1 con la cuarta o quinta.',
+      'Si un participante o equipo da una respuesta incorrecta, pierde el turno de responder en esa misma ronda (no puede volver a intentar hasta la siguiente pista).',
+      'Se juegan al menos 8 objetos distintos para tener una competencia equilibrada.',
+      'Gana quien (o el equipo que) acumule más puntos al finalizar todos los objetos.',
+      'En caso de empate, se presenta un objeto adicional de desempate mostrando únicamente la pista más difícil; gana quien lo adivine primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2022/04/12/16/36/puzzle-7128357_1280.png',
+    beneficios: [
+      'Profundiza en el conocimiento de objetos y su significado bíblico.',
+      'Desarrolla la capacidad de análisis y asociación de ideas.',
+      'Estimula la atención y la escucha activa durante las pistas.',
+      'Complementa el estudio de personajes con el estudio de elementos materiales de la Biblia.'
+    ],
+    edad: 'A partir de 10 años'
+  },
+  {
+    id: 40,
+    titulo: 'Carrera de Obstáculos: El Éxodo',
+    descripcion: 'Es una carrera de obstáculos por equipos que recrea, de forma simbólica, distintas etapas del Éxodo (salir de Egipto, cruzar el desierto, recibir el maná, cruzar el Mar Rojo). Cada obstáculo representa una etapa del recorrido bíblico y debe superarse en orden para llegar a la meta.',
+    reglas: [
+      'Se diseña un circuito con 4 o 5 obstáculos consecutivos, cada uno representando una etapa del Éxodo (por ejemplo: saltar "ladrillos" de espuma representando la esclavitud en Egipto, pasar por un túnel o aros representando el desierto, recoger "maná" -bolitas o pelotas pequeñas- en un punto del recorrido, y cruzar un carril delimitado representando el Mar Rojo).',
+      'Se forman equipos con el mismo número de integrantes; se corre por relevos, uno a la vez, o el equipo completo recorre junto el circuito, según se decida antes de empezar.',
+      'Cada obstáculo debe superarse completamente (sin saltarse pasos) antes de avanzar al siguiente; si un integrante se salta un obstáculo, debe regresar a completarlo.',
+      'En la estación del "maná", el equipo debe recoger una cantidad mínima establecida (por ejemplo, 5 piezas) antes de continuar al siguiente obstáculo.',
+      'Se cronometra el tiempo desde la salida hasta que el último integrante del equipo cruza la meta habiendo completado todos los obstáculos correctamente.',
+      'Gana el equipo con el menor tiempo total, siempre que haya completado correctamente todas las etapas; los errores no corregidos (obstáculos saltados) se penalizan con 5 segundos adicionales por cada uno detectado por el moderador.',
+      'En caso de empate en el tiempo final, se repite únicamente el último obstáculo (cruzar el "Mar Rojo") entre los equipos empatados; gana quien lo complete primero.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2017/03/18/13/35/exodus-2153995_1280.png',
+    beneficios: [
+      'Enseña de forma vivencial y física el relato del Éxodo.',
+      'Combina resistencia, coordinación y trabajo en equipo.',
+      'Genera una experiencia memorable que refuerza el aprendizaje bíblico.',
+      'Es ideal como actividad central de un campamento o evento al aire libre.'
+    ],
+    edad: 'A partir de 9 años'
+  }
 ]
