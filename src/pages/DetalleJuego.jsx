@@ -42,7 +42,7 @@ export function DetalleJuego() {
 export function BotonVolver() {
     return (
         <div className="botonvolver">
-            <a href="/" className="btn btn-light btn-lg rounded-circle" title="Volver" style={{ width: '50px', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0' }}>
+            <a href="/" className="btn btn-light btn-lg rounded-circle" title="Volver" >
                 <img src="https://cdn.pixabay.com/photo/2013/07/12/12/29/arrow-145787_1280.png" alt="Volver" className="icono-volver" />
             </a>
         </div>

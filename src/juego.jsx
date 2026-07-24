@@ -13,7 +13,11 @@ export function Juegos({ juego }) {
 
       <div className="juego-overlay">
         <h5>{juego.titulo}</h5>
-        <p>{juego.descripcion}</p>
+        <p>
+          {juego.descripcion.length > 450
+            ? juego.descripcion.slice(0, 450) + "..."
+            : juego.descripcion}
+        </p>
       </div>
      
     </div>
@@ -41,4 +45,21 @@ export function DetalleJuego({ detalles }) {
       <p>{detalles.edad}</p>
     </div>
   )
+}
+// input para buscar juegos por título
+export function Buscador({ onBuscar }) {
+    const handleChange = (event) => {
+        onBuscar(event.target.value)
+    }
+
+    return (
+        <div className="form-group">
+            <input
+                type="text"
+                className="form-control"
+                placeholder="Buscar juego..."
+                onChange={handleChange}
+            />
+        </div>
+    )
 }

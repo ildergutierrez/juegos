@@ -3,6 +3,7 @@ body {
     font-family: System-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
 }
+
 .App {
 
     display: flex;
@@ -10,20 +11,23 @@ body {
     justify-content: center;
     gap: 20px;
 
-     /* min-height: 100vh; */
+    /* min-height: 100vh; */
 
 }
-.App span.logo{
-   img{
-    width: 140px;
-    height: 150px;
-   }
+
+.App span.logo {
+    img {
+        width: 140px;
+        height: 150px;
+    }
 
 
 }
+
 .row {
     margin: 10px;
 }
+
 /* Estilos para el principal componente Juego */
 .juego-card {
     height: 380px;
@@ -36,7 +40,7 @@ body {
 
 .juego-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
 }
 
 .juego-img {
@@ -53,7 +57,7 @@ body {
 .juego-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,.85);
+    background: rgba(0, 0, 0, .85);
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -77,109 +81,98 @@ body {
     margin: 0;
     font-size: .95rem;
 }
+
 /* final de los estilos para el componente Juego */
 
 /* Detalle del juego */
-.card{
-   width: 90%;
+.card {
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 8px 25px rgba(0,0,0,.12);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .12);
     border: none;
     overflow: hidden;
 }
-.card-body{
-    padding:40px;
+
+.card-body {
+    padding: 40px;
 }
-.card{
-    transition:.3s;
+
+.card {
+    transition: .3s;
 }
+
 .regla-card,
-.beneficio-card{
+.beneficio-card {
     border: none;
     border-left: 5px solid #0d6efd;
     border-radius: 12px;
     background: #fff;
     transition: .25s;
-    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .08);
 }
 
 .regla-card:hover,
-.beneficio-card:hover{
+.beneficio-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
 }
 
 .regla-card .card-body,
-.beneficio-card .card-body{
-    padding:20px;
-    font-size:1rem;
-    line-height:1.6;
+.beneficio-card .card-body {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
 }
-.card:hover{
-    transform:translateY(-3px);
+
+.card:hover {
+    transform: translateY(-3px);
 }
-.imagen-detalle{
-    height:350px;
-object-fit:cover;
-border-radius:15px;
-background:#f8f9fa;
-padding:15px;
+
+.imagen-detalle {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    background: #f8f9fa;
+    padding: 15px;
 }
+
 .descripcion-detalle {
-   font-size:1.15rem;
-line-height:1.9;
-color:#555;
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #555;
     text-align: justify;
 }
+
 .titulo-detalle {
     font-size: 2.4rem;
-font-weight: 700;
-margin-bottom: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
     text-align: center;
 }
+
 .beneficios-list {
     list-style-type: square;
     padding-left: 20px;
     margin-top: 15px;
-   line-height:2;
+    line-height: 2;
 }
+
 .reglas-list {
     list-style-type: disc;
     padding-left: 20px;
     margin-top: 15px;
-    line-height:2;
-}
-h4{
-    margin-top:35px;
-    margin-bottom:20px;
-    font-weight:600;
+    line-height: 2;
 }
 
-@media (max-width: 768px) {
-    .imagen-detalle {
-        max-height: 300px;
-    }
-    .card {
-        width: 100%;
-        padding: 10px;
-    }
-    .card-body{
-        width: 100%;
-        padding: 5px;
-    }
-    .App {
+h4 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
 
-    align-content: flex-start;
-    flex-direction: column;
-     /* min-height: 100vh; */
 
-}
-.App p{
-    text-align: center;
-}
-}
 /* final de los estilos para el detalle del juego */
 /*boton subir*/
 .botonSubir {
@@ -188,17 +181,72 @@ h4{
     right: 20px;
     z-index: 1000;
 }
+
 .icono-subir {
     width: 10px;
     height: 15px;
 }
+
 .botonvolver {
     position: fixed;
     bottom: 20px;
     left: 20px;
     z-index: 1000;
 }
+
 .icono-volver {
     width: 30px;
     height: 20px;
+}
+   .btn .btn-light .btn-lg .rounded-circle {
+        width: '50px';
+        height: '30px';
+        display: 'flex';
+        align-items: 'center';
+        padding: '0'
+    }
+@media (max-width: 768px) {
+    .imagen-detalle {
+        max-height: 300px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .card-body {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .App {
+
+        align-content: flex-start;
+        flex-direction: column;
+        /* min-height: 100vh; */
+
+    }
+
+    .App p {
+        text-align: center;
+    }
+
+    .botonvolver {
+        position: fixed;
+        bottom: 0px;
+        left: 20px;
+        background: transparent;
+        padding: 0px;
+    }
+
+    a.btn.btn-light.btn-lg.rounded-circle {
+       background: transparent;
+    }
+
+    .icono-volver {
+        width: 20px;
+        height: 10px;
+        padding: 0;
+    }
 }

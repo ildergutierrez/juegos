@@ -1076,6 +1076,195 @@ export const coleccion = [
       'Desarrolla la escucha activa y la formulación de preguntas estratégicas en los espectadores.',
       'Es una actividad muy vistosa, ideal para eventos especiales o presentaciones ante toda la congregación.'
     ],
+    edad: 'A partir de 12 años' },
+  {
+    id: 51,
+    titulo: 'El Laberinto Ciego',
+    descripcion: 'Se arma en el suelo, con cinta, cuerdas o conos, un laberinto de pasillos angostos con curvas, callejones sin salida y un único camino correcto que lleva desde la entrada hasta una meta donde se coloca un objeto simbólico (por ejemplo, una Biblia o una cruz pequeña). Un participante se venda los ojos por completo y debe atravesar el laberinto guiándose únicamente por la voz de un compañero de su equipo, quien lo dirige desde fuera del recorrido usando solo indicaciones verbales, sin tocarlo en ningún momento ("dos pasos al frente", "gira a la derecha", "detente"). La dinámica representa de forma vivencial la confianza que un creyente deposita en la guía de Dios, o en la voz de un pastor o consejero, cuando no puede ver el camino por sí mismo. Si el participante toca con el pie o el cuerpo alguno de los límites del laberinto (la cinta, la cuerda o un cono), se considera que "se ha perdido puntos" y debe detenerse en ese punto mientras su guía reformula las indicaciones para reencaminarlo, generando tensión y necesidad de comunicación clara y paciente. El reto principal no recae solo en quien tiene los ojos vendados, sino en la capacidad del guía para dar instrucciones precisas, ordenadas y a tiempo, ya que instrucciones confusas o tardías pueden hacer que el participante choque contra los límites o tome el camino equivocado dentro del laberinto.',
+    reglas: [
+      'Materiales: cinta adhesiva, cuerdas o conos para delimitar en el piso un laberinto de pasillos de al menos 60 cm de ancho, con curvas y un camino falso además del correcto; una venda o antifaz por participante que cruza.',
+      'Se forman parejas o equipos pequeños: un integrante hará de "caminante" (con los ojos vendados) y otro (o varios, por turnos) hará de "guía" (sin vendar, ubicado fuera del laberinto).',
+      'El guía solo puede comunicarse con palabras; está terminantemente prohibido tocar, empujar o jalar al caminante en cualquier momento del recorrido.',
+      'Otros participantes o equipos pueden hacer ruido o hablar al mismo tiempo desde fuera para generar distracción, siempre que no toquen al caminante ni al guía (esto se puede activar como una dificultad extra a partir de la segunda ronda).',
+      'Si el caminante toca alguno de los límites del laberinto con el pie o el cuerpo, debe detenerse por completo hasta que su guía le indique cómo corregir el rumbo; no se reinicia el recorrido, pero se anota como una "falta".',
+      'Se cronometra el tiempo desde que el caminante inicia el recorrido hasta que toca el objeto colocado en la meta.',
+      'Gana el equipo que complete el recorrido en el menor tiempo, sumando 5 segundos de penalización al tiempo final por cada falta (toque de límite) cometida.',
+      'En caso de empate en el tiempo total (incluyendo penalizaciones), se repite el recorrido con los mismos roles pero por un camino distinto del mismo laberinto; gana el equipo con el menor tiempo en esta segunda vuelta.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2016/08/01/00/19/maze-1560302_1280.png',
+    beneficios: [
+      'Ilustra de forma vivencial la confianza en la guía de Dios y en la voz de un líder.',
+      'Fortalece la comunicación clara, ordenada y paciente entre compañeros.',
+      'Desarrolla la escucha atenta y la capacidad de seguir instrucciones bajo presión.',
+      'Genera una experiencia memorable que se presta para una reflexión final sobre la fe y la obediencia.'
+    ],
+    edad: 'A partir de 10 años'
+  },
+  {
+    id: 52,
+    titulo: 'Tira y Afloja de la Fe',
+    descripcion: 'Es una competencia de tira y afloja por equipos, usando una cuerda gruesa y resistente, combinada con preguntas bíblicas que determinan cuándo cada equipo puede halar con fuerza. Los dos equipos se ubican en extremos opuestos de la cuerda, con una marca central en el suelo y dos marcas laterales que definen la línea de victoria de cada lado. Antes de cada intento de halar, el moderador hace una pregunta bíblica a ambos equipos; solo el equipo que responda correctamente y primero obtiene el derecho de halar con todas sus fuerzas durante unos segundos, mientras el otro equipo únicamente puede resistir sin soltar la cuerda pero sin halar activamente. Esta mecánica evita que el juego dependa solo de la fuerza física y obliga a los equipos a mantenerse atentos y concentrados en el conocimiento bíblico incluso en medio del esfuerzo físico, ya que perder la concentración por cansancio puede costarles la oportunidad de avanzar en la siguiente ronda.',
+    reglas: [
+      'Materiales: una cuerda gruesa de al menos 8 a 10 metros, con un pañuelo o cinta atada en el centro, y tres marcas en el suelo (una central y dos laterales equidistantes que marcan la línea de victoria de cada equipo).',
+      'Se forman dos equipos con el mismo número de integrantes, cada uno tomando un extremo de la cuerda, con el pañuelo central alineado sobre la marca del centro al inicio del juego.',
+      'Antes de cada "asalto" de halar, el moderador hace una pregunta bíblica en voz alta; el primer equipo en levantar la mano y responder correctamente gana el derecho de halar con fuerza durante 10 segundos, mientras el equipo contrario solo puede sostener la cuerda sin ceder terreno voluntariamente, sin halar hacia su lado.',
+      'Si ningún equipo responde correctamente la pregunta, ese asalto se pierde y ningún equipo hala; se pasa directamente a la siguiente pregunta.',
+      'Se repite el proceso de preguntas y asaltos de 10 segundos hasta que el pañuelo central cruce alguna de las dos líneas de victoria marcadas en el suelo.',
+      'Gana el equipo hacia cuyo lado cruce el pañuelo central primero.',
+      'En caso de que el tiempo total de la actividad se agote sin que ningún equipo logre cruzar la línea de victoria, gana el equipo que haya logrado desplazar el pañuelo más cerca de su propia línea.',
+      'En caso de empate exacto en la distancia del pañuelo respecto al centro, se juega un asalto final único, sin pregunta previa, en el que ambos equipos halan libremente durante 15 segundos; gana quien logre cruzar su línea de victoria.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2022/02/24/16/03/rope-7032712_1280.png',
+    beneficios: [
+      'Combina fuerza física, trabajo en equipo y conocimiento bíblico en una sola dinámica.',
+      'Enseña que la fortaleza sin control ni conocimiento no siempre asegura la victoria.',
+      'Genera entusiasmo, energía y un ambiente de sana competencia física.',
+      'Es ideal para actividades al aire libre con espacio amplio, como campamentos o retiros.'
+    ],
     edad: 'A partir de 12 años'
+  },
+  {
+    id: 53,
+    titulo: 'Cruzando el Jordán: Cadena Humana',
+    descripcion: 'Se traza en el suelo una franja ancha que representa el río Jordán, y el reto de cada equipo es lograr que todos sus integrantes crucen de una orilla a la otra sin que ningún pie toque el área marcada como "agua". Para lograrlo, los integrantes deben formar una cadena humana, tomándose firmemente de las manos o de los brazos, y avanzar de forma coordinada usando pasos amplios, saltos apoyados entre sí o turnándose para sostener a quienes tienen menor alcance de zancada. El juego representa de manera física el relato bíblico en el que el pueblo de Israel cruzó el río Jordán en unidad, apoyándose unos a otros bajo la guía de Josué, y enseña que ciertos retos no se pueden superar de forma individual, sino que requieren la ayuda y el sostén constante de los demás miembros del equipo para que nadie quede atrás ni "caiga al agua" en el intento.',
+    reglas: [
+      'Materiales: cinta o tiza para marcar en el suelo una franja de "río" de aproximadamente 2 a 3 metros de ancho, con las dos orillas claramente delimitadas.',
+      'Se forman equipos con el mismo número de integrantes, todos ubicados en una de las orillas, tomados de las manos formando una cadena continua sin soltarse en ningún momento del recorrido.',
+      'A la señal del moderador, el equipo debe cruzar completo hasta la orilla contraria sin que ningún integrante pise dentro del área marcada como río, y sin romper la cadena de manos en ningún momento.',
+      'Si algún integrante pisa dentro del río o la cadena se rompe (las manos se sueltan), todo el equipo debe regresar a la orilla de salida y comenzar de nuevo el cruce completo.',
+      'Se permite que los integrantes se ayuden con saltos, pasos amplios o sosteniéndose del brazo con fuerza para ayudar a cruzar a los compañeros de menor estatura o alcance.',
+      'Se cronometra el tiempo desde la señal de salida hasta que el último integrante del equipo pisa completamente la orilla contraria con la cadena de manos intacta.',
+      'Gana el equipo que logre cruzar completo en el menor tiempo total, contando los reinicios que haya tenido por pisar el río o romper la cadena.',
+      'En caso de empate en el tiempo final, se repite el cruce reduciendo el ancho permitido de pasos (marcando una franja de río más ancha); gana el equipo que logre cruzar primero bajo esta nueva condición.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2015/10/14/13/19/bridge-987613_1280.png',
+    beneficios: [
+      'Enseña de forma física el valor de la unidad y el apoyo mutuo dentro de un equipo.',
+      'Ilustra vivencialmente el relato bíblico del cruce del río Jordán.',
+      'Desarrolla la coordinación grupal y la comunicación durante el movimiento conjunto.',
+      'Fortalece la confianza entre los integrantes, ya que el éxito depende de sostenerse unos a otros.'
+    ],
+    edad: 'A partir de 9 años'
+  },
+  {
+    id: 54,
+    titulo: 'El Escudo de la Fe',
+    descripcion: 'Inspirado en el pasaje de la armadura de Dios de Efesios 6, este juego enfrenta a dos equipos: uno de "atacantes" y otro de "defensores", en rondas que se van alternando. Los atacantes lanzan pelotas suaves de espuma o tela (representando los "dardos de fuego del maligno") hacia el equipo defensor, mientras los defensores utilizan escudos improvisados (láminas de cartón grueso, tapas grandes o platos de cartón resistente) para bloquear los lanzamientos sin ser alcanzados por las pelotas. Antes de cada ronda de lanzamientos, el equipo defensor debe responder correctamente una pregunta bíblica relacionada con la armadura de Dios o con la protección divina para poder usar sus escudos durante esa ronda; si fallan la pregunta, deben defenderse esa ronda únicamente esquivando con el cuerpo, sin la ayuda del escudo, haciendo la defensa considerablemente más difícil.',
+    reglas: [
+      'Materiales: pelotas suaves de espuma, tela o papel arrugado (nunca objetos duros que puedan lastimar), y un escudo improvisado por cada integrante del equipo defensor (cartón, plato grande resistente o similar).',
+      'Se forman dos equipos: uno de atacantes y otro de defensores, ubicados a una distancia de seguridad de al menos 4 a 5 metros entre sí, dentro de un área delimitada para los defensores.',
+      'Antes de cada ronda de ataque (de 20-30 segundos), el moderador hace una pregunta bíblica al equipo defensor; si responden correctamente, todos sus integrantes pueden usar el escudo durante esa ronda para bloquear los lanzamientos.',
+      'Si el equipo defensor responde incorrectamente, deben afrontar la ronda de ataque sin usar los escudos, solo esquivando con el cuerpo dentro del área delimitada.',
+      'Los atacantes lanzan las pelotas suaves intentando tocar a los defensores por debajo de los hombros (nunca se apunta a la cabeza ni al rostro, por seguridad).',
+      'Cada defensor que sea alcanzado por una pelota durante la ronda queda "eliminado" temporalmente y debe sentarse fuera del área hasta la siguiente ronda; el equipo defensor suma un punto por cada integrante que logre terminar la ronda sin ser tocado.',
+      'Al finalizar un número determinado de rondas (por ejemplo, 5), los equipos intercambian roles: los defensores pasan a ser atacantes y viceversa, repitiendo el mismo proceso.',
+      'Gana el equipo que haya sumado más puntos totales (integrantes no eliminados) en su turno como defensores.',
+      'En caso de empate, se juega una ronda de desempate corta (15 segundos) con ambos equipos defendiendo simultáneamente en áreas separadas usando escudos; gana el equipo con menos integrantes eliminados en esa ronda final.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2012/04/13/11/06/shield-31869_1280.png',
+    beneficios: [
+      'Ilustra de forma activa y física el pasaje bíblico de la armadura de Dios.',
+      'Combina reflejos, trabajo en equipo y conocimiento bíblico bajo presión.',
+      'Enseña que la protección espiritual requiere tanto conocimiento como preparación activa.',
+      'Genera gran energía y diversión, siendo ideal para actividades al aire libre con espacio amplio.'
+    ],
+    edad: 'A partir de 10 años'
+  },
+  {
+    id: 55,
+    titulo: 'El Duelo de Jacob',
+    descripcion: 'Inspirado en el relato de Jacob luchando toda la noche junto al río Jaboc, este juego enfrenta a dos participantes a la vez en un reto de fuerza y equilibrio controlado, sin llegar a ser una lucha agresiva. De pie, dentro de un círculo marcado en el suelo, ambos participantes colocan las palmas de sus manos contra las palmas del contrincante (sin entrelazar los dedos ni sujetarse de otra forma) y, a la señal del moderador, intentan hacer que el otro pierda el equilibrio o saque un pie fuera del círculo marcado, empujando únicamente con las palmas de las manos. El reto no consiste en derribar al otro, sino en usar el equilibrio, la estrategia y los movimientos de esquiva (retirar las manos en el momento justo para que el rival empuje al vacío) para lograr que sea el otro quien pierda primero la estabilidad o el equilibrio dentro del círculo.',
+    reglas: [
+      'Materiales: un círculo marcado en el suelo con cinta o tiza, de aproximadamente 1.5 a 2 metros de diámetro, en una superficie plana y segura.',
+      'Participan dos personas a la vez, de tamaño y edad similar por seguridad y equidad, ubicadas de pie dentro del círculo, frente a frente, separadas por un paso de distancia.',
+      'Ambos colocan las palmas de las manos contra las palmas del oponente, sin entrelazar los dedos, sin sujetar la muñeca ni el brazo del contrario en ningún momento.',
+      'A la señal del moderador de "¡ya!", ambos pueden empujar con las palmas, retirar las manos o esquivar los empujones del otro, siempre manteniendo los pies dentro del círculo.',
+      'Está estrictamente prohibido usar los pies para hacer zancadillas, sujetar cualquier otra parte del cuerpo del contrincante, o empujar con los brazos extendidos rígidos usando todo el peso del cuerpo de forma brusca; el juego se basa en equilibrio y reflejos, no en fuerza descontrolada.',
+      'Un participante pierde el duelo si saca cualquier pie completamente fuera del círculo marcado, o si pierde el equilibrio y toca el suelo con otra parte del cuerpo que no sean los pies.',
+      'Antes de iniciar cada duelo, el moderador puede hacer una pregunta bíblica relacionada con el relato de Jacob; el participante que responda correctamente puede elegir si empieza empujando o esperando el primer movimiento del rival.',
+      'Se organiza un sistema de eliminación directa (el ganador de cada duelo avanza a la siguiente ronda) hasta llegar a una final entre los dos últimos participantes.',
+      'En caso de empate técnico (ambos salen del círculo o pierden el equilibrio exactamente al mismo tiempo, según el criterio del moderador), se repite el duelo una vez más entre los mismos dos participantes.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2017/03/15/22/02/jacob-2147673_1280.png',
+    beneficios: [
+      'Ilustra de forma física, controlada y segura el relato de la lucha de Jacob.',
+      'Desarrolla el equilibrio, los reflejos y la estrategia de movimiento.',
+      'Fomenta el respeto y el control físico entre los participantes, sin agresividad.',
+      'Genera un ambiente de sana competencia individual dentro de la dinámica grupal.'
+    ],
+    edad: 'A partir de 13 años'
+  },
+  {
+    id: 56,
+    titulo: 'Camino a Damasco',
+    descripcion: 'Inspirado en el momento en que Saulo quedó ciego camino a Damasco y tuvo que ser guiado por otros hasta recibir de nuevo la vista, este juego forma parejas donde uno de los integrantes se venda los ojos por completo y debe confiar totalmente en su compañero, quien lo guía por un recorrido con obstáculos reales colocados en el espacio (sillas, cajas, cuerdas a baja altura, conos), esta vez sí mediante contacto físico directo: el guía sostiene la mano o el brazo del participante vendado en todo momento y lo conduce físicamente, sorteando cada obstáculo con indicaciones de movimiento y pequeños tirones o guías de dirección con la mano. A diferencia del laberinto ciego, aquí el contacto físico constante entre guía y caminante es central en la dinámica, representando la dependencia total y la confianza que Saulo tuvo que depositar en quienes lo condujeron durante los días en que no podía ver por sí mismo.',
+    reglas: [
+      'Materiales: obstáculos variados y seguros distribuidos en un recorrido (sillas, cajas de cartón, cuerdas tendidas a baja altura, conos), y una venda o antifaz por participante que hará de caminante.',
+      'Se forman parejas: un integrante se venda los ojos completamente (el "caminante") y el otro actúa como guía, sujetando su mano o su brazo en todo momento durante el recorrido.',
+      'El guía debe conducir físicamente a su compañero a través de todos los obstáculos, usando el contacto de la mano para indicar giros, detenerse, agacharse o levantar el pie, combinando el contacto con indicaciones verbales breves.',
+      'Está prohibido que el guía cargue o levante del suelo al caminante; el caminante debe recorrer el camino con sus propios pies, solo apoyado y dirigido por el contacto y la voz del guía.',
+      'Si el caminante golpea o tumba un obstáculo, la pareja debe detenerse 5 segundos antes de continuar, como penalización simbólica de "tropiezo en el camino".',
+      'Se cronometra el tiempo desde la salida hasta que el caminante llega a la meta final del recorrido sin haberse quitado la venda en ningún momento.',
+      'Gana la pareja que complete el recorrido en el menor tiempo, sumando 5 segundos de penalización al tiempo final por cada obstáculo derribado.',
+      'Al llegar a la meta, se puede pedir al caminante que responda una pregunta bíblica sobre la conversión de Saulo antes de "recibir la vista" (quitarse la venda), como parte simbólica del cierre del juego.',
+      'En caso de empate en el tiempo total, se intercambian los roles dentro de las parejas empatadas y se repite un recorrido más corto; gana la pareja con el mejor tiempo en esta segunda vuelta.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2018/01/21/01/34/tree-3095703_1280.jpg',
+    beneficios: [
+      'Ilustra de forma vivencial la dependencia y la confianza del relato de la conversión de Saulo.',
+      'Fortalece el vínculo de confianza física y verbal entre los participantes.',
+      'Desarrolla la empatía al experimentar la vulnerabilidad de no poder ver el camino.',
+      'Es una actividad profundamente reflexiva, ideal para cerrar con una enseñanza sobre la fe y la guía de Dios.'
+    ],
+    edad: 'A partir de 10 años'
+  },
+  {
+    id: 57,
+    titulo: 'El Muro de Jericó',
+    descripcion: 'Un grupo de participantes forma una fila compacta, tomados firmemente de los brazos o los hombros, representando el "muro" de la ciudad de Jericó. Del otro lado, uno o dos participantes designados como "los hijos de Israel" deben intentar romper esa fila humana atravesando por algún punto, empujando con el cuerpo (sin usar golpes ni movimientos bruscos peligrosos) para lograr separar a dos integrantes del muro y pasar al otro lado antes de que se termine un tiempo límite. Antes de cada intento, el equipo que forma el muro puede fortalecer su posición respondiendo correctamente una pregunta bíblica sobre el relato de la caída de Jericó, lo cual les permite añadir un integrante extra a su fila para esa ronda, haciendo el muro más difícil de romper; si fallan la pregunta, deben defender el muro con el número de integrantes que ya tenían.',
+    reglas: [
+      'Materiales: ninguno especial, solo un espacio despejado y seguro; se recomienda hacerlo sobre pasto, colchonetas o superficie blanda para evitar golpes en caso de caídas.',
+      'Se forma un equipo que hace de "muro", tomados firmemente de los brazos entrelazados o de los hombros en una fila compacta y recta.',
+      'Se designa a uno o dos participantes (dependiendo del tamaño del grupo) como los que intentarán "derribar el muro", ubicados frente a la fila a una distancia de 2 metros.',
+      'Antes de cada intento, el moderador hace una pregunta bíblica al equipo del muro; si responden correctamente, pueden sumar un integrante adicional a la fila para esa ronda.',
+      'A la señal de inicio, los participantes que atacan tienen un tiempo límite (por ejemplo, 20 segundos) para intentar separar a dos integrantes del muro empujando con el cuerpo, los brazos o el peso, sin golpear, patear ni usar movimientos violentos o peligrosos en ningún momento.',
+      'El muro puede resistir moviéndose, agachándose o afirmando más los brazos, pero no puede sujetar, jalar de la ropa ni inmovilizar físicamente a quienes atacan de forma agresiva.',
+      'Si los atacantes logran separar a dos integrantes del muro y pasar completamente al otro lado antes de que se acabe el tiempo, "el muro cae" y el equipo atacante gana esa ronda.',
+      'Si el muro resiste todo el tiempo límite sin romperse, el equipo defensor gana esa ronda.',
+      'Se juegan varias rondas alternando quién ataca y quién defiende; gana quien logre más rondas ganadas al finalizar el número total establecido.',
+      'En caso de empate en rondas ganadas, se juega una ronda final de desempate con un tiempo reducido (10 segundos) y sin posibilidad de sumar integrantes extra al muro.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2016/06/16/01/57/ruin-1460481_1280.jpg',
+    beneficios: [
+      'Ilustra de forma física y enérgica el relato bíblico de la caída de los muros de Jericó.',
+      'Fomenta el trabajo en equipo, tanto para resistir como para atacar de forma coordinada.',
+      'Desarrolla la fuerza controlada y el respeto por los límites de seguridad entre compañeros.',
+      'Genera un ambiente de alta energía, ideal para actividades al aire libre o campamentos con jóvenes.'
+    ],
+    edad: 'A partir de 13 años'
+  },
+  {
+    id: 58,
+    titulo: 'Rescate del Foso de los Leones',
+    descripcion: 'Se marca en el suelo un círculo amplio que representa el "foso de los leones", dentro del cual uno o varios participantes (haciendo el papel de Daniel) deben permanecer sin salir mientras un grupo de "leones" (otros participantes con una banda o distintivo en el brazo) intenta tocarlos suavemente para "atraparlos", sin que esto implique agresividad ni contacto brusco, solo un toque ligero con la mano. El resto del grupo, fuera del foso, puede "rescatar" a Daniel lanzándole desde afuera del círculo una cuerda o pañuelo para que se sujete y sea jalado fuera del alcance de los leones, pero solo después de que el equipo completo responda correctamente una pregunta bíblica relacionada con el relato de Daniel en el foso de los leones, representando la intervención divina que cerró la boca de los leones para protegerlo.',
+    reglas: [
+      'Materiales: cinta o tiza para marcar un círculo amplio en el suelo (mínimo 4 metros de diámetro) que representa el foso, y una cuerda o pañuelo largo para el rescate.',
+      'Se elige a uno o dos participantes para hacer de "Daniel", quienes se ubican dentro del círculo del foso; se eligen entre 2 y 4 participantes para hacer de "leones", identificados con una banda o distintivo en el brazo, también dentro del círculo.',
+      'Los leones deben intentar tocar suavemente con la mano a Daniel dentro del foso (sin empujones, agarres fuertes ni movimientos bruscos) para "atraparlo"; si lo logran antes del rescate, Daniel queda eliminado de esa ronda.',
+      'El resto del grupo, ubicado fuera del círculo, debe primero responder correctamente una pregunta bíblica que el moderador les hace sobre el relato de Daniel; solo si aciertan, se les permite lanzar la cuerda o pañuelo hacia dentro del foso para que Daniel se sujete.',
+      'Una vez que Daniel se sujeta de la cuerda o pañuelo, los compañeros de fuera deben jalarlo con cuidado fuera del alcance de los leones antes de que estos logren tocarlo, dentro de un tiempo límite de 15 segundos desde que se lanza la cuerda.',
+      'Si el equipo de fuera falla la pregunta bíblica, no se les permite lanzar la cuerda en ese intento y deben esperar a la siguiente pregunta mientras Daniel sigue esquivando a los leones dentro del foso lo mejor que pueda.',
+      'Si Daniel logra ser rescatado (sacado del círculo sujeto de la cuerda) antes de ser tocado por algún león, el equipo de fuera gana esa ronda; si los leones logran tocarlo antes del rescate, ganan los leones.',
+      'Se juegan varias rondas rotando quiénes hacen de Daniel, leones y equipo de rescate, para que todos participen en distintos roles.',
+      'Gana, al finalizar todas las rondas, el rol (Daniel/rescate o leones) que haya logrado más victorias en total; en caso de empate, se juega una ronda final de desempate con un tiempo reducido a 10 segundos para el rescate.'
+    ],
+    img: 'https://cdn.pixabay.com/photo/2016/02/14/20/42/leone-1200199_1280.jpg',
+    beneficios: [
+      'Ilustra de forma dinámica y física el relato bíblico de Daniel en el foso de los leones.',
+      'Combina trabajo en equipo, agilidad y conocimiento bíblico bajo presión.',
+      'Enseña sobre la protección divina y la importancia del apoyo mutuo en momentos de peligro.',
+      'Genera un ambiente emocionante y participativo, ideal para grupos numerosos al aire libre.'
+    ],
+    edad: 'A partir de 10 años'
   }
 ]
